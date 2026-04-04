@@ -7,8 +7,8 @@ const QuickActions = () => {
   const { filteredTransactions, setNavSection, setOpenAddModal } = useApp()
 
   return (
-    <Card borderRadius="2xl" boxShadow="lg">
-      <CardBody>
+    <Card borderRadius="2xl" boxShadow="lg" h="100%" display="flex">
+      <CardBody flex="1">
         <Stack spacing={4}>
           <HStack spacing={3} align="center">
             <Icon as={FileText} color="blue.400" />

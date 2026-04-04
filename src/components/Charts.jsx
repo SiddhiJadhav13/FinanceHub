@@ -77,7 +77,7 @@ const Charts = () => {
                 <YAxis
                   stroke="#94a3b8"
                   fontSize={12}
-                  tickFormatter={(value) => `$${value / 1000}k`}
+                  tickFormatter={(value) => `₹${value / 1000}k`}
                 />
                 <Tooltip
                   formatter={(value) => formatCurrency(value)}

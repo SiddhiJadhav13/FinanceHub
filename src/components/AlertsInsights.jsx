@@ -16,8 +16,8 @@ const AlertsInsights = () => {
   const hasOverspend = totals.expense > totals.income
 
   return (
-    <Card borderRadius="2xl" boxShadow="lg">
-      <CardBody>
+    <Card borderRadius="2xl" boxShadow="lg" h="100%" display="flex">
+      <CardBody flex="1">
         <Stack spacing={4}>
           <Heading size="sm">Alerts & Insights</Heading>
           <HStack spacing={3} align="flex-start">

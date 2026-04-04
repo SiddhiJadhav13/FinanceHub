@@ -36,8 +36,8 @@ const BudgetProgress = () => {
   }, [transactions])
 
   return (
-    <Card borderRadius="2xl" boxShadow="lg">
-      <CardBody>
+    <Card borderRadius="2xl" boxShadow="lg" h="100%" display="flex">
+      <CardBody flex="1">
         <Stack spacing={4}>
           <Heading size="sm">Budget Progress</Heading>
           {budgets.map((item) => (

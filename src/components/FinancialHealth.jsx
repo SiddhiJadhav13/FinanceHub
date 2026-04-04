@@ -25,8 +25,8 @@ const FinancialHealth = () => {
   }, [totals])
 
   return (
-    <Card borderRadius="2xl" boxShadow="lg">
-      <CardBody>
+    <Card borderRadius="2xl" boxShadow="lg" h="100%" display="flex">
+      <CardBody flex="1">
         <Stack spacing={3}>
           <HStack justify="space-between">
             <Heading size="sm">Financial Health</Heading>
